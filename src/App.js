@@ -1,14 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-
+import UncontrolledForm from "./components/UncontrolledForm"
 
 function App() {
   return (
     <div className="App">
-    <Header />
-    <Footer />
+      <UncontrolledForm />
     </div>
   );
 }
