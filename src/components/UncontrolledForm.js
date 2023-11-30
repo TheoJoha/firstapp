@@ -12,7 +12,7 @@ export default function UncontrolledForm(props) {
         
         const newState = {...counter}
         console.log(input)
-        newState.value = parseInt(input.current.value)
+        newState.value = Number(input.current.value)
 
         if (counter.value !== newState.value) {
             setCounter(newState)
